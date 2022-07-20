@@ -1,0 +1,21 @@
+schema {
+    query: Query
+}
+
+type Address {
+      number
+      street
+      city
+      state
+}
+
+type Person {
+    email
+    name 
+    address: Address
+
+}
+
+type Query {
+    persons: Person!
+}
