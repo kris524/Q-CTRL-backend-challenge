@@ -3,19 +3,19 @@ schema {
 }
 
 type Address {
-      number
-      street
-      city
-      state
+      number: Int!
+      street: String!
+      city: String!
+      state: String!
 }
 
 type Person {
-    email
-    name 
-    address: Address
+    email: String
+    name: String
+    address: [Address]
 
 }
 
 type Query {
-    persons: Person!
+    persons: Person
 }
