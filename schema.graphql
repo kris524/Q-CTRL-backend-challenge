@@ -17,5 +17,5 @@ type Person {
 }
 
 type Query {
-    persons: Person
+    persons: Person!
 }
