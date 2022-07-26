@@ -10,7 +10,7 @@ db = SQLAlchemy(app)
 
 @app.route("/")
 def hello():
-    return "asdsad as !"
+    return "Hello from Flask and Docker"
 
 
 # @app.route("/graphql")

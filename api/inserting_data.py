@@ -1,4 +1,4 @@
-from main import db
+from app import db
 from api.models import Person, Address
 
 
